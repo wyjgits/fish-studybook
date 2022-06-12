@@ -11,4 +11,6 @@
   - [141.环形链表](./my-algorithm/141.环形链表.ts)
   - [142.环形链表-ii](./my-algorithm/142.环形链表-ii.ts)
   - [202.快乐数](./my-algorithm/202.快乐数.ts)
-
+#### 2021.12.9  leetCode算法刷题
+  - [206.反转链表](./my-algorithm/206.反转链表.ts)
+  - [92.反转链表-ii](./my-algorithm/92.反转链表-ii.ts)
