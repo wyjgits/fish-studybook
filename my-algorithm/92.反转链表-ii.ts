@@ -16,7 +16,28 @@
  *     }
  * }
  */
-
+ class ListNode {
+       public val;
+       public next;
+       constructor(val?: number, next?: ListNode | null) {
+          this.val = (val===undefined ? 0 : val)
+           this.next = (next===undefined ? null : next)
+       }  
+   }
+   function newList(arr){
+     let head = null,cur = null;
+    arr.forEach((element,i) => {
+      let node = new ListNode(element)
+      if (i===0) {
+        head = cur = node;
+      }else {
+        cur.next = node;
+        cur = node;
+      }
+    });
+    return head
+   }
+reverseBetween(newList([1,2,3,4,5]),1,3)
  function reverseBetween(head: ListNode | null, left: number, right: number): ListNode | null {
   if(!head || !head.next || left==right)return head;
   let i = 0,cur = head,pre = null,startPre = null,start = null,next = null;
